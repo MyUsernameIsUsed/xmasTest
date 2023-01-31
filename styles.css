@@ -1,0 +1,254 @@
+/* color scheme ------------------------------
+red - #FF1400
+white - #F9FCFD
+black - #131315
+lime green - #64EA64
+green - #00A723
+
+	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Merriweather', serif;
+	font-family: 'Roboto', sans-serif;
+---------------------------------------------*/
+
+/* Genral Styles ------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	background:#131315;
+	color:#F9FCFD;
+	font-family: 'Bungee Hairline', cursive;
+}
+
+.btn {
+	background-color: #64EA64;
+	padding: 25px 50px;
+	border-radius: 20px;
+	font-family:  'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.btn:hover {
+	background-color: #F9FCFD;
+	color: #FF1400;
+}
+
+
+.wd800{
+	width: 800px;
+	margin: 0 auto;
+	line-height: 100px;
+}
+
+.two{
+	font-size: 300px;
+	baseline-shift: super;
+}
+
+/* Header -------------------------------------------*/
+header h1{
+	position: relative;
+	top: 500px;
+	font-family: 'Merriweather', serif;
+	font-size: 2.5em;
+	color: #F9FCFD;
+}
+
+
+
+header {margin: 0;
+	padding: 0;
+	background-image: url("../Images/38861995000_edb9c4dfa9_o.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 800px;
+	color:#F9FCFD;
+	
+} 
+
+header nav{
+	margin: 0;
+	padding: 0;
+	background:#13131599;
+	min-height: 30px;
+	font-size: 1em;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+header nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+header nav a{
+	color:#F9FCFD;
+	text-decoration: none;
+	padding: 30px 0 13px 0;
+}
+
+/* Psuedo-class Selector*/
+header nav a:hover {
+	background: none; 
+
+}
+/* Main Content ----------------------------------------------*/
+main {
+	background-image: url("../Images/christmastree.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+main section h2 {
+	background: #F9FCFD99;
+	width:100%;
+	text-align: center;
+	color: white;
+	padding: 25px 0;
+	margin:  35% 0 0 0;
+	
+}
+main section h3{
+	background: white;
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+	top:10px;
+	left:10px;
+	
+}
+
+h2 a{
+	text-decoration: none;
+}
+
+main #PS5Controller {
+	min-height: 200px;
+	background-image: url("../Images/controller.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+main #AirPods {
+	min-height: 200px;
+	background-image: url("../images/AirPods.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+main #money {
+	min-height: 200px;
+	background-image: url("../images/Money.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+main #Shoes {
+	min-height: 200px;
+	background-image: url("../images/Shoes.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+main #MacAndCheese {
+	min-height: 200px;
+	background-image: url("../images/MacAndCheese.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+main #ToiletPaper {
+	min-height: 200px;
+	background-image: url("../Images/ToiletPaper.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+
+main #Soda {
+	min-height: 200px;
+	background-image: url("../Images/soda.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+
+main #GodOfWar {
+	min-height: 200px;
+	background-image: url("../Images/4213762186_c239797fc3_o.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+
+main #GothamKnights {
+	min-height: 200px;
+	background-image: url("../Images/GothamKnights.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}  
+
+main #Deathloop {
+	min-height: 200px;
+	background-image: url("../Images/Deathloop.jpg");
+	background-size: cover;
+	background-color: black;
+	color:black;
+}
+
+/* Footer ---------------------------------------------------*/
+footer {
+	margin: 0;
+	padding: 0;
+	background: #131315;
+	color: #F9FCFD;
+	text-align: center;
+	min-height: 300px;
+}
+
+footer nav {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	min-height: 60px;
+	font-size: 1em;
+}
+
+footer nav ul{
+	list-style: none;
+	width: 100%;
+	padding: 10px 0 10px 25px;	
+	margin: 0;
+}
+
+footer nav ul li{
+	display: inline-block;
+	margin-right: 1em;
+	
+	
+}
+footer nav a {
+	color: black;
+	text-decoration: none;
+	padding-right: 50px;
+	font-weight: bold;
+}
+footer nav a:hover{
+	color: #131315;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
